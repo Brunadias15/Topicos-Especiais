@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package topicosavancados;
 
-/**
- *
- * @author Wesley
- */
 import ij.ImagePlus;
 import ij.process.ImageProcessor;
 import java.io.File;
@@ -21,9 +14,6 @@ import java.io.File;
 
 public class TopicosAvancados {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         File escolherArquivo = escolherArquivo();
         String path = escolherArquivo.getAbsolutePath();
